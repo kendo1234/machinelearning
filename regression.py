@@ -1,6 +1,10 @@
 import pandas as pd
 import quandl
 
+# NOTE:
+# Feature = column of data in input set
+# Label = final result of data calculation
+
 #df = data frame
 df = quandl.get("WIKI/GOOGL", authtoken="NyE5gCTW3yxWWVeHfC7y")
 
